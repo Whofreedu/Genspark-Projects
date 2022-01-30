@@ -6,7 +6,7 @@ public class Guess_the_number {
    public static void main(String[] args) {
     String names = "";
     int number;
-    number = 5;//(int) (Math.random() * 20);
+    number = (int) (Math.random() * 20);
     int guess;
     int guess_amount = 0;
     System.out.println("Hello! What is your name");
